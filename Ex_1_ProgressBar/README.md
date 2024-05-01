@@ -1,7 +1,7 @@
 # Exercise 1 - ProgressBar
 Create a new Project (xml) which will show the following Layout:
 
-<img src="Ex_1_ProgressBar/result.png" width="200">
+<img src="result.png" width="200">
 
 To create the ProgressBar you can use this code snippet as a reference:
 
