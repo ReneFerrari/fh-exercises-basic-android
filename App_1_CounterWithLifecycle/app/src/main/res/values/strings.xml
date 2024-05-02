@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">App_1_CounterWithLifecycle</string>
+    <string name="current_count">Current count is</string>
+    <string name="increment">Increment</string>
+</resources>
