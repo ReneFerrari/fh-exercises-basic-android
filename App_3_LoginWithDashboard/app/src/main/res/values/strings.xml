@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">App_3_LoginWithDashboard</string>
+    <string name="cta_login">Login</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_username">Username</string>
+    <string name="error_username_wrong">Entered Username is wrong!</string>
+    <string name="error_password_wrong">Entered password is wrong!</string>
+    <string name="dashboard_greeting">Hello %1$s</string>
+    <string name="dashboard_lastloggedin">Last Login: %1$s</string>
+</resources>
