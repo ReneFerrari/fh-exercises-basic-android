@@ -15,6 +15,8 @@ Folders prefixed with *App_* are small Apps we've built together in the lessons.
 
 ## Task:
 
+<img src="tip.png" width="200">
+
 - First screen enter total amount to pay
 - Next leads to next screen
 - Shows total amount and options to tip or option to enter specific value
