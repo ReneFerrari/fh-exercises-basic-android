@@ -10,3 +10,18 @@ Folders prefixed with *App_* are small Apps we've built together in the lessons.
 - [Official Android Training Courses](https://developer.android.com/get-started/overview)
 - [Google Android Codelabs](https://developer.android.com/get-started/codelabs)
 - [Official Android Developer Blog](https://android-developers.googleblog.com/)
+
+
+
+## Task:
+
+- First screen enter total amount to pay
+- Next leads to next screen
+- Shows total amount and options to tip or option to enter specific value
+- Below the tip amount show the tip percentage
+- Clicking next will show the final screen
+- Here display the first value of the billing value + the tip value and total value
+- Click Pay and show a Toast that says “Successfully paid”
+- If you are finished early beautify the design
+- Dont forget to handle configuration changes!
+- Note: Me and Google are your friends
