@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ex_5_TipCalculator</string>
+    <string name="billing_amount">Billing amount</string>
+    <string name="next">Next</string>
+    <string name="tip">Tip</string>
+    <string name="pay">Pay</string>
+    <string name="successfully_paid">Successfully paid!</string>
+    <string name="percent_of_amount_to_pay">(%1$s%% of %2$s€)</string>
+</resources>
