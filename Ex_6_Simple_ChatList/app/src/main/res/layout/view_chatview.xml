@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="72dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_chatview_avatar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        tools:src="@drawable/ic_launcher_background" />
+
+    <LinearLayout
+        android:id="@+id/ll_chatview"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@id/iv_chatview_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_chatview_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            tools:text="John Doe" />
+
+        <TextView
+            android:id="@+id/tv_chatview_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="This was the last message" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginEnd="8dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/ll_chatview"
+        tools:text="23:00"
+        android:id="@+id/tv_chatview_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

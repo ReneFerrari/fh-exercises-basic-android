@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ChatView">
+        <attr name="contact_name" format="string" />
+        <attr name="message" format="string" />
+        <attr name="time" format="string" />
+        <attr name="avatar" format="reference" />
+    </declare-styleable>
+</resources>

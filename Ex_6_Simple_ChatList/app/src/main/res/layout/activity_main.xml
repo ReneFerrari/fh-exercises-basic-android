@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral90"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <at.fhooe.reneferrari.ex_6_simple_chatlist.ChatView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        app:avatar="@drawable/ic_launcher_background"
+        app:contact_name="John Doe"
+        app:message="Hello this is a message"
+        app:time="12:00" />
+
+    <at.fhooe.reneferrari.ex_6_simple_chatlist.ChatView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="8dp"
+        app:avatar="@drawable/ic_launcher_background"
+        app:contact_name="John Doe"
+        app:message="Hello this is a message"
+        app:time="12:00" />
+
+    <at.fhooe.reneferrari.ex_6_simple_chatlist.ChatView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="8dp"
+        app:avatar="@drawable/ic_launcher_background"
+        app:contact_name="John Doe"
+        app:message="Hello this is a message"
+        app:time="12:00" />
+
+    <at.fhooe.reneferrari.ex_6_simple_chatlist.ChatView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="8dp"
+        app:avatar="@drawable/ic_launcher_background"
+        app:contact_name="John Doe"
+        app:message="Hello this is a message"
+        app:time="12:00" />
+
+    <at.fhooe.reneferrari.ex_6_simple_chatlist.ChatView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="8dp"
+        app:avatar="@drawable/ic_launcher_background"
+        app:contact_name="John Doe"
+        app:message="Hello this is a message"
+        app:time="12:00" />
+</LinearLayout>
