@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ex_7_Simple_Notetaking</string>
+    <string name="new_note">New Note</string>
+    <string name="add">Add Note</string>
+</resources>
