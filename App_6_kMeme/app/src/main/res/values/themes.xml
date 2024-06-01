@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.KMeme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorPrimaryContainer">@color/accent</item>
+        <item name="colorOnPrimaryContainer">@color/black_light</item>
+    </style>
+
+    <style name="Theme.KMeme" parent="Base.Theme.KMeme" />
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TitleL" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Title" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="Body" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="BodyS" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">12sp</item>
+    </style>
+</resources>

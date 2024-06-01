@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">App_6_kMeme</string>
+    <string name="share">Share</string>
+    <string name="hint_top_caption">Top Caption</string>
+    <string name="hint_bottom_caption">Bottom Caption</string>
+    <string name="authority">com.tractive.android.kmeme.provider</string>
+</resources>
