@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/inbox_item"
+        android:icon="@drawable/ic_inbox_24"
+        android:title="@string/inbox_title"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/outbox_item"
+        android:icon="@drawable/ic_outbox_24"
+        android:title="@string/outbox_title"
+        android:checkable="true"/>
+</menu>
+
