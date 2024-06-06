@@ -10,3 +10,4 @@ Folders prefixed with *App_* are small Apps we've built together in the lessons.
 - [Official Android Training Courses](https://developer.android.com/get-started/overview)
 - [Google Android Codelabs](https://developer.android.com/get-started/codelabs)
 - [Official Android Developer Blog](https://android-developers.googleblog.com/)
+- [Material Design for all fancy components](https://m3.material.io/)
