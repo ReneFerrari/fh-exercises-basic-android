@@ -4,8 +4,6 @@ import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.Canvas
 import android.os.Bundle
-import android.os.Looper
-import android.util.Log
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
@@ -18,13 +16,9 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.marginBottom
 import androidx.core.view.marginTop
 import androidx.core.widget.doAfterTextChanged
-import androidx.lifecycle.lifecycleScope
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.textfield.TextInputEditText
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
 import java.io.File
 import java.io.FileOutputStream
 
@@ -72,19 +66,13 @@ class MainActivity : AppCompatActivity() {
         }
 
         btnShare.setOnClickListener {
-            lifecycleScope.launch(Dispatchers.IO) {
-                Log.d("CURRENTHREAD", "${Looper.getMainLooper().isCurrentThread}")
-                val file = generateMeme(
-                    tvTopCaption,
-                    tvBottomCaption,
-                    ivMeme
-                )
+            val file = generateMeme(
+                tvTopCaption,
+                tvBottomCaption,
+                ivMeme
+            )
 
-                withContext(Dispatchers.Main) {
-                    Log.d("CURRENTHREAD", "${Looper.getMainLooper().isCurrentThread}")
-                    shareImage(file)
-                }
-            }
+            shareImage(file)
         }
     }
 

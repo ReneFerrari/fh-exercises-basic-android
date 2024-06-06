@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Ex_9_ConvertImageToBlackAndWhiteCoroutine"
+rootProject.name = "Ex_8_ConvertImageToBlackAndWhite"
 include(":app")
  

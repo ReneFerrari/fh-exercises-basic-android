@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "at.fhooe.reneferrari.ex_9_convertimagetoblackandwhitecoroutine"
+    namespace = "at.fhooe.reneferrari.ex_8_convertimagetoblackandwhite"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "at.fhooe.reneferrari.ex_9_convertimagetoblackandwhitecoroutine"
+        applicationId = "at.fhooe.reneferrari.ex_8_convertimagetoblackandwhite"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

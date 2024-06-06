@@ -1,4 +1,4 @@
-package at.fhooe.reneferrari.fragmentexample
+package at.fhooe.reneferrari.ex_8_convertimagetoblackandwhite
 
 import org.junit.Test
 
