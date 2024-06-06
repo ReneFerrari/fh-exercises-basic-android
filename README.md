@@ -11,3 +11,4 @@ Folders prefixed with *App_* are small Apps we've built together in the lessons.
 - [Google Android Codelabs](https://developer.android.com/get-started/codelabs)
 - [Official Android Developer Blog](https://android-developers.googleblog.com/)
 - [Material Design for all fancy components](https://m3.material.io/)
+- [If you need any icon you can find it here](https://pictogrammers.com/library/mdi/)
