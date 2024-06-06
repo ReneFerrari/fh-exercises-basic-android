@@ -1,4 +1,4 @@
-package at.fhooe.reneferrari.ex_8_convertimagetoblackandwhite
+package at.fhooe.reneferrari.ex_9_convertimagetoblackandwhitecoroutine
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "at.fhooe.reneferrari.ex_9_convertimagetoblackandwhitecoroutine"
+    namespace = "at.fhooe.reneferrari.fragmentexample"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "at.fhooe.reneferrari.ex_9_convertimagetoblackandwhitecoroutine"
+        applicationId = "at.fhooe.reneferrari.fragmentexample"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -36,7 +36,7 @@ android {
 }
 
 dependencies {
-
+    implementation("androidx.fragment:fragment-ktx:1.7.1")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)

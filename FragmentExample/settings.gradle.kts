@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Ex_9_ConvertImageToBlackAndWhiteCoroutine"
+rootProject.name = "FragmentExample"
 include(":app")
  
